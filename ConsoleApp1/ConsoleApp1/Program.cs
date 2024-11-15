@@ -25,10 +25,11 @@ switch (znak1)
         Console.WriteLine("Неизвестный знак");
         break;
 }
+// конец первой  и начало второй
 
 
 
-Console.WriteLine("Выбери число от 1 до 7");
+Console.WriteLine("Выбери число от 1 до 7"); // дни недели из чисел 
 string daynum = Console.ReadLine();
 int day = int.Parse(daynum);
 string dayName = day switch
