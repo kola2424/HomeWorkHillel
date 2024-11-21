@@ -26,6 +26,7 @@ x64/
 *.obj
 *.pch
 *.pdb
+*.vs
 *.pgc
 *.pgd
 *.rsp
