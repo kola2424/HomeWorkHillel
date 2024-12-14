@@ -13,7 +13,6 @@
         {
             if (number <= 1)
                 return number;
-
             int prev = 0, next = 1;
             for (int i = 2; i < number; i++)
             {
