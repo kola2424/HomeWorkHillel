@@ -1,10 +1,10 @@
 ﻿//Работа с масивами 1
 // первое
 
-using System.ComponentModel.DataAnnotations;
-using System.Runtime.CompilerServices;
+//using System.ComponentModel.DataAnnotations;
+//using System.Runtime.CompilerServices;
 
-Random rnd = new Random();
+//Random rnd = new Random();
 //int[] array = new int[10];
 //for (int i = 0; i < array.Length; i++)
 //{
@@ -210,77 +210,78 @@ Random rnd = new Random();
 //Console.WriteLine($"мИнимальный индекс на рядке {strin2} и по счёту {minIndex + 1} само число {minNum}");
 
 //  Пятое
+//немного не разобрался с enum 
 
-int day = 0;
-int.TryParse(Console.ReadLine(), out day);
-if (day % 7  == 7)
-{
-    Console.WriteLine("Sunday");
-}
-else if (day % 7 == 6)
-{
-    Console.WriteLine("Saturday");
-}
-else if (day % 7 == 5)
-{
-    Console.WriteLine("Friday");
-}
-else if (day % 7 == 4)
-{
-    Console.WriteLine("Thersday");
-}
-else if (day % 7 == 3)
-{
-    Console.WriteLine("Wednesday");
-}
-else if (day % 7 == 2)
-{
-    Console.WriteLine("Tuesday");
-}
-else if (day % 7 == 1)
-{
-    Console.WriteLine("Monday");
-}
-OrderType days = OrderType.Wednesday;
-if (days == OrderType.Monday)
-{
-    Console.WriteLine("Monday");
-}
-else if (days == OrderType.Tuesday)
-{
-    Console.WriteLine("Tuesday");
-}
-else if (days == OrderType.Wednesday)
-{
-    Console.WriteLine("Wednesday");
-}
-else if (days== OrderType.Thursday)
-{
-    Console.WriteLine("Thersday");
-}
-else if (days == OrderType.Friday)
-{
-    Console.WriteLine("Friday");
-}
-else if (days == OrderType.Saturday)
-{
-    Console.WriteLine("Saturday");
-}
-else
-{
-    Console.WriteLine("Sunday");
-}
-enum OrderType
-{
-    Monday = 1 ,
-    Tuesday,
-    Wednesday,
-    Thursday,
-    Friday,
-    Saturday,
-    Sunday
+//int day = 0;
+//int.TryParse(Console.ReadLine(), out day);
+//if (day % 7  == 7)
+//{
+//    Console.WriteLine("Sunday");
+//}
+//else if (day % 7 == 6)
+//{
+//    Console.WriteLine("Saturday");
+//}
+//else if (day % 7 == 5)
+//{
+//    Console.WriteLine("Friday");
+//}
+//else if (day % 7 == 4)
+//{
+//    Console.WriteLine("Thersday");
+//}
+//else if (day % 7 == 3)
+//{
+//    Console.WriteLine("Wednesday");
+//}
+//else if (day % 7 == 2)
+//{
+//    Console.WriteLine("Tuesday");
+//}
+//else if (day % 7 == 1)
+//{
+//    Console.WriteLine("Monday");
+//}
 
-}
+//OrderType days = OrderType.Wednesday;
+//if (days == OrderType.Monday)
+//{
+//    Console.WriteLine("Monday");
+//}
+//else if (days == OrderType.Tuesday)
+//{
+//    Console.WriteLine("Tuesday");
+//}
+//else if (days == OrderType.Wednesday)
+//{
+//    Console.WriteLine("Wednesday");
+//}
+//else if (days== OrderType.Thursday)
+//{
+//    Console.WriteLine("Thersday");
+//}
+//else if (days == OrderType.Friday)
+//{
+//    Console.WriteLine("Friday");
+//}
+//else if (days == OrderType.Saturday)
+//{
+//    Console.WriteLine("Saturday");
+//}
+//else
+//{
+//    Console.WriteLine("Sunday");
+//}
+//enum OrderType
+//{
+//    Monday = 1 ,
+//    Tuesday,
+//    Wednesday,
+//    Thursday,
+//    Friday,
+//    Saturday,
+//    Sunday
+//}
 
 
 
