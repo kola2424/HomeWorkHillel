@@ -46,9 +46,9 @@
               "Title": "FileName.cs",
               "DocumentMoniker": "D:\\Github\\ConsoleApp1\\ConsoleApp4\\FileName.cs",
               "RelativeDocumentMoniker": "ConsoleApp4\\FileName.cs",
-              "ToolTip": "D:\\Github\\ConsoleApp1\\ConsoleApp4\\FileName.cs*",
-              "RelativeToolTip": "ConsoleApp4\\FileName.cs*",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA8AAAAHAAAAAAAAAA==",
+              "ToolTip": "D:\\Github\\ConsoleApp1\\ConsoleApp4\\FileName.cs",
+              "RelativeToolTip": "ConsoleApp4\\FileName.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwDUAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-22T07:08:54.245Z",
               "EditorCaption": ""
@@ -59,9 +59,9 @@
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Github\\ConsoleApp1\\ConsoleApp4\\Program.cs",
               "RelativeDocumentMoniker": "ConsoleApp4\\Program.cs",
-              "ToolTip": "D:\\Github\\ConsoleApp1\\ConsoleApp4\\Program.cs*",
-              "RelativeToolTip": "ConsoleApp4\\Program.cs*",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAQwA4AAAA5AAAAAAAAAA==",
+              "ToolTip": "D:\\Github\\ConsoleApp1\\ConsoleApp4\\Program.cs",
+              "RelativeToolTip": "ConsoleApp4\\Program.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwBsAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-22T07:08:41.741Z",
               "EditorCaption": ""
@@ -76,8 +76,7 @@
               "RelativeToolTip": "ConsoleApp2\\Program.cs",
               "ViewState": "AgIAAAIAAAAAAAAAAAAxwCAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-22T07:07:57.395Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-22T07:07:57.395Z"
             },
             {
               "$type": "Document",
@@ -89,21 +88,19 @@
               "RelativeToolTip": "ConsoleApp3\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-22T07:07:48.228Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-22T07:07:48.228Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "ConsoleApp3",
+              "Title": "ConsoleApp3.csproj",
               "DocumentMoniker": "D:\\Github\\ConsoleApp1\\ConsoleApp3\\ConsoleApp3.csproj",
               "RelativeDocumentMoniker": "ConsoleApp3\\ConsoleApp3.csproj",
               "ToolTip": "D:\\Github\\ConsoleApp1\\ConsoleApp3\\ConsoleApp3.csproj",
               "RelativeToolTip": "ConsoleApp3\\ConsoleApp3.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-12-22T07:07:46.044Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-22T07:07:46.044Z"
             },
             {
               "$type": "Document",
@@ -115,8 +112,7 @@
               "RelativeToolTip": "ConsoleApp1\\Program.cs",
               "ViewState": "AgIAACIBAAAAAAAAAAAgwFIBAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-22T07:05:39.989Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-22T07:05:39.989Z"
             }
           ]
         }

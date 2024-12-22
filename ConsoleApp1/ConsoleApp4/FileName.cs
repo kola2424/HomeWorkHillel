@@ -35,6 +35,26 @@ namespace ConsoleApp4
 
             } 
         }
+        public int deposit(int add)
+        {
+            cash += add;
+            return cash;
+        }
+        public int withdraw(int minus)
+        {
+            if (cash - minus <= 0)
+            {
+                Console.WriteLine("У вас нет такой суммы на карте");
+                return cash;
+            }
+            else
+            {
+                cash -= minus;
+                return cash;
+            }
+                
+        }
+            
         public void CashInfo()
         {
             Console.WriteLine(cash);

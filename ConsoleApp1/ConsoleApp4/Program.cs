@@ -11,33 +11,23 @@ namespace ConsoleApp4
             Console.WriteLine("Введите Имя");
             user.Name = Console.ReadLine();
             Console.WriteLine("Введите Фамилию ");
-            user.Surname = Console.ReadLine();
-
-            retyrn1:
-
+            user.Surname = Console.ReadLine();     
             Console.WriteLine("Введите Первоначальный взнос");
             int cash = 0;
             int.TryParse(Console.ReadLine(), out cash);
             user.Cash = cash;
             Console.WriteLine($"  Счёт {user.Name} {user.Surname} = {user.Cash}");
-            Console.WriteLine("Напишите число которое хотите положить или забрать(забрать через -)"); // ну я сделал добавление и отнимания на счёт 
+            Console.WriteLine("Напишите число которое хотите  забрать"); 
             int sum = 0;
             int.TryParse(Console.ReadLine(), out sum);
-            user.Cash = sum;
+            user.withdraw(sum);
+            Console.Write($"денег на счету :");
             user.CashInfo();
-            Console.WriteLine("Хотите ли дальше продолжить работу? выберите Да или Нет");
-            if (Console.ReadLine() == "Да")
-            {
-                goto retyrn1;
-            }
-            else if (Console.ReadLine() == "Нет")
-            {
-                Console.WriteLine("Досвидание ");
-            }
-            else
-            {
-                Console.WriteLine("Не верная команда принудительное закрытие ");
-            }
+            Console.WriteLine("Напишите число которое хотите  положить");
+            int.TryParse(Console.ReadLine(), out sum);
+            user.deposit(sum);
+            user.CashInfo();
+
             Account user2 = new Account();
             Console.WriteLine("Введите Имя");
             user2.Name = Console.ReadLine();
@@ -48,27 +38,18 @@ namespace ConsoleApp4
             int.TryParse(Console.ReadLine(), out cash);
             user2.Cash = cash;
             Console.WriteLine($"  Счёт {user2.Name} {user2.Surname} = {user2.Cash}");
-
-            retyrn2: 
-
-            Console.WriteLine("Напишите число которое хотите положить или забрать(забрать через -)");  
+            Console.WriteLine("Напишите число которое хотите  забрать");
             sum = 0;
             int.TryParse(Console.ReadLine(), out sum);
-            user2.Cash = sum;
+            user2.withdraw(sum);
+            Console.Write($"денег на счету :");
             user2.CashInfo();
-            Console.WriteLine("Хотите ли дальше продолжить работу? выберите Да или Нет");
-            if (Console.ReadLine() =="Да")
-            {
-                goto retyrn2;
-            }
-            else if (Console.ReadLine() == "Нет") 
-            {
-                Console.WriteLine("Досвидание ");
-            }
-            else 
-            { 
-                Console.WriteLine("Не верная команда принудительное закрытие ");
-            }
+            Console.WriteLine("Напишите число которое хотите  положить");
+            int.TryParse(Console.ReadLine(), out sum);
+            user2.deposit(sum);
+            Console.Write($"денег на счету :");
+            user2.CashInfo();
+
 
         }
     }
