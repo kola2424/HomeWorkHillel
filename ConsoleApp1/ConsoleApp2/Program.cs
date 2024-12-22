@@ -4,23 +4,49 @@
     {
         static void Main(string[] args)
         {
-            int fibonachi = 0;
-            int.TryParse(Console.ReadLine(), out fibonachi);
-            int endFibonachi = Fibonachi(fibonachi);
-            Console.WriteLine($"Число фибоначи ={endFibonachi} пoсле {fibonachi} раз");
-        }
-        static int Fibonachi(int number)
-        {
-            if (number <= 1)
-                return number;
-            int prev = 0, next = 1;
-            for (int i = 2; i < number; i++)
+            Random rnd = new Random();
+            int[][] array = new int[2][];
+            array[0] = new int[10];
+            array[1] = new int[10];
+            // задание 1  второй найбольший элемент
+            for (int i = 0; i < 10; i++)
             {
-                int temp = prev + next;
-                prev = next;
-                next = temp;
+                array[0][i] = rnd.Next(0, 50);
+                array[1][i] = rnd.Next(0, 50);
             }
-            return next;
+            int max2 = -1;
+            int max = -1;
+            for (int i = 0; i < 10; i++)
+            {
+                Console.Write(array[0][i] + "(");
+                Console.Write(array[1][i]+")");
+
+
+                int next = 0;
+                for (int j = 0; j < 10; j++)
+                {
+                    if (max < array[0][i])
+                    {
+                        max = array[0][i];
+                    }
+                }
+
+
+                
+                if (max < array[1][i])
+                {
+                    max = array[1][i];
+                }
+
+
+                if (max2 < array[0][i] && max2 != max && array[0][i] > array[1][i])
+                {
+                    max2 = array[0][i];
+                }
+
+            }
+            Console.WriteLine(" ");
+            Console.WriteLine(max2);
         }
     }
 }
